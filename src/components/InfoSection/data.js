@@ -35,7 +35,7 @@ export const homeTwo = {
 };
 
 export const homeThree = {
-  id: "services",
+  id: "signup",
   lightBg: true,
   lightText: false,
   lightTextDesc: false,

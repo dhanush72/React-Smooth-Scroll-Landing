@@ -4,6 +4,8 @@ import Navbar from "../components/Navbar";
 import HeroSection from "../components/HeroSection";
 import InfoSection from "../components/InfoSection";
 import { homeOne, homeTwo, homeThree } from "../components/InfoSection/data";
+import Services from "../components/Services";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -19,7 +21,9 @@ const Home = () => {
       <HeroSection />
       <InfoSection {...homeOne} />
       <InfoSection {...homeTwo} />
-      <InfoSection {...homeThree} />
+      <Services />
+      <InfoSection {...homeThree} id="signup" />
+      <Footer />
     </>
   );
 };
